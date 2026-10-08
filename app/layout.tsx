@@ -12,6 +12,12 @@ export const metadata: Metadata = {
   description:
     "다낭 황제투어 3박5일 패키지 안내. 숙소, 전 일정 차량, 공항 픽업·샌딩, 관광, 마사지·이발소, 가라오케 일정과 가격 및 예약 정보를 확인하세요.",
 
+    verification: {
+  other: {
+    "naver-site-verification":
+      "fa2e19f5f0fb93c1ce46c870a31daedcd41755f5",
+  },
+},
   keywords: [
     "다낭 황제투어",
     "다낭 황제투어 가격",
