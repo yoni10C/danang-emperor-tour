@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dananghwangje.com"),
+
   title: {
     default: "다낭 황제투어 | 3박5일 패키지 가격·일정·예약",
     template: "%s | 다낭 황제투어",
@@ -25,10 +27,15 @@ export const metadata: Metadata = {
     "다낭 공항 픽업",
   ],
 
+  alternates: {
+    canonical: "/",
+  },
+
   openGraph: {
     title: "다낭 황제투어 | 3박5일 프리미엄 패키지",
     description:
       "숙소, 차량, 관광, 마사지·이발소, 가라오케까지 포함된 다낭 3박5일 패키지 일정과 가격을 확인하세요.",
+    url: "https://dananghwangje.com",
     siteName: "다낭 황제투어",
     locale: "ko_KR",
     type: "website",
@@ -57,6 +64,11 @@ export const metadata: Metadata = {
       index: true,
       follow: true,
     },
+  },
+
+  icons: {
+    icon: "https://dananghwangje.com/favicon.png",
+    shortcut: "https://dananghwangje.com/favicon.png",
   },
 };
 
